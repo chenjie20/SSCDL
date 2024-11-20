@@ -58,7 +58,7 @@ parser.add_argument('--beta', type=float, default=0.05, help='Regularization par
 parser.add_argument('--dropout', type=float, default=0.2)
 parser.add_argument('--residual', type=bool, default=False)
 
-parser.add_argument('--gpu', default=3, type=int, help='GPU device idx.')
+parser.add_argument('--gpu', default=0, type=int, help='GPU device idx.')
 
 args = parser.parse_args()
 
